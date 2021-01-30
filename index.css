@@ -1,0 +1,52 @@
+.list{
+    width: 230px;
+    background-color: rgb(226, 233, 224);
+    border: 1px solid gold;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px sandybrown;
+    position: absolute;
+    left: 550px;
+    top: 100px;
+
+       
+}
+.element{
+    height: 300px;
+    overflow-y: auto;
+}
+
+span{
+    color: springgreen;
+    font-size: 30px;
+    cursor: pointer;
+}
+[type="text"]{
+    margin: 10px;
+    width: 200px;
+    height: 20px;
+      
+}
+p{
+    margin-left: 10px;
+}
+
+.list::before{
+    content: "Enter somthing";
+    font-size: 20px;
+    position: relative;
+    left: 50px;
+
+}
+
+[type="button"]{
+    position: relative;
+    left: 80px;
+    width: 60px;
+    margin: 5px;
+    font-weight: bold;
+    background-color: chartreuse;
+    outline: none;
+}
+[type="text"]:focus{
+    background-color: rgb(66, 194, 187);
+}
